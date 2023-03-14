@@ -4,6 +4,6 @@ sudo apt install python3.9 -y
 sudo apt install python3-pip -y
 sudo mkdir /NginxBackup
 cd /NginxBackup
-sudo wget https://raw.githubusercontent.com/rgoogoonani/X-ui_Backup/main/Startup.py
-sudo wget https://raw.githubusercontent.com/rgoogoonani/X-ui_Backup/main/AutoBackup.py
+sudo wget https://raw.githubusercontent.com/rgoogoonani/nginx-backup/main/Startup.py
+sudo wget https://raw.githubusercontent.com/rgoogoonani/nginx-backup/main/AutoBackup.py
 sudo python3 /NginxBackup/Startup.py
