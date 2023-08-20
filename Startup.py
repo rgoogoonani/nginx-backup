@@ -15,7 +15,7 @@ print(Name)
 #-------------------------------------------------------------------
 FileAddres=input("File Addres : ")
 if FileAddres=="":
-    FileAddres="/etc/nginx/nginx.conf"
+    FileAddres="/Marzban/M1/db.sqlite3"
 print(FileAddres)
 with open("/NginxBackup/config.txt","w") as f:
     f.writelines(f"{chid}\n{Name}\n{FileAddres}\n{botToken}")
