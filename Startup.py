@@ -18,7 +18,7 @@ if FileAddres=="":
     FileAddres="/Marzban/M1/db.sqlite3"
 print(FileAddres)
 with open("/NginxBackup/config.txt","w") as f:
-    f.writelines(f"{chid}\n{Name}\n{FileAddres}\n{botToken}")
+    f.writelines(chid+"\n"+Name+"\n"+FileAddres+"\n"+botToken)
 
 
 with open("/etc/systemd/system/NginxAutoBackup.service","w") as f:
